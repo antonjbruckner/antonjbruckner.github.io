@@ -1,0 +1,144 @@
+html, body {
+    margin: 0px;
+    font-family: Quicksand;
+}
+.backgroundContainer {
+    background-color: #d91616;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    position: fixed;
+}
+
+.TextContainer {
+    position: relative;
+    display: block;
+    width: 35em;
+    height: 6em;
+    background-color: #ffffff;
+    top: 10em;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d8d8d8;
+    
+}
+
+
+.WriteText {
+    position: relative; 
+    display: block;
+    top: 10em;
+    width: 35em;
+    height: 5em;
+    background-color: #000000;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #d8d8d8;
+}
+
+.ActualText {
+    font-size: 25px;
+    margin: 0px;
+}
+
+.inputText {
+    width: 20em;
+    height: 3em;
+    position: absolute;
+    border: 3px white;
+    border-radius: 3px;
+    left: 14em;
+    margin: 0px;
+}
+
+input[type=text]:focus {
+    background-color: #ffffff;
+    margin: 0;
+}
+
+span {
+    background-color: #d8d8d8;
+}
+.timer {
+    position: absolute;
+    float: right;
+    background-color: #ff0000;
+    color: #EFD0CA;
+    font-size: 20px;
+    text-align: center;
+}
+
+.TitleArea {
+    width: 600px;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    top: 225px;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 225px;
+}
+.CodeText {
+    background-color: transparent;
+}
+
+.nohighlight {
+    top: -5em;
+    position: absolute;
+}
+
+.BackgroundText {
+    position: absolute;
+    color: transparent;
+    text-shadow: 0 0 3px rgba(0,0,0,0.5);
+    font-size: 25px;
+}
+.ResultContainer {
+    position: relative;
+    display: block;
+    width: 35em;
+    height: 6em;
+    top: 10em;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.SaltContainer {
+    position: relative;
+    display: block;
+    width: 35em;
+    height: 10em;
+    top: 5em;  
+    margin-left: auto;
+    margin-right: auto;
+}
+.SaltLogo {
+    font-size: 5em;
+    margin: 0px;
+    color: #ffffff;
+    text-align: center;
+}
+.SaltText {
+    font-size: 2em;
+    margin: 0px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.ResultContainer > p {
+    color: white;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.Replay {
+    height: 3em;
+    width: 3em;
+    float: right;
+}
